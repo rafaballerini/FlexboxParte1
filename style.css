@@ -3,7 +3,6 @@
 }
 
 .container {
-  /* flexbox do elemento pai: */
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -11,6 +10,7 @@
   flex-wrap: wrap;
   align-content: center;
   row-gap: 10px;
+  column-gap: 30px;
 
   /* indiferente: */
   background-color: #f9eac3;
